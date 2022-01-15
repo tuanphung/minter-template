@@ -21,7 +21,7 @@ export default function TotalSupply() {
             }
     
             await getTotalSupply()
-            await getTotalValue()
+            // await getTotalValue()
         
             setLoading(false)
         }
@@ -60,7 +60,7 @@ export default function TotalSupply() {
         <>
             <p>
                 Tokens minted: { loading ? 'Loading...' : `${totalMinted}/${TOTAL}` }<br />
-                Contract value: { loading ? 'Loading...' : `${totalValue}ETH` }
+                {/* Contract value: { loading ? 'Loading...' : `${totalValue}ETH` } */}
             </p>
         </>
     )
