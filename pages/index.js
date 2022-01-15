@@ -119,14 +119,7 @@ export default function Home() {
       </main>
 
       <footer className="mt-20 text-center">
-        <a
-          href="https://github.com/tomhirst/solidity-nextjs-mint-starter/blob/main/README.md"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 hover:text-blue-700 mb-8 inline-block"
-        >
-          Read the docs
-        </a>
+        
       </footer>
     </div>
   )
