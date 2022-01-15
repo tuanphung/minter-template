@@ -81,7 +81,7 @@ export default function Home() {
         ) : (
           <>
             <h1 className="text-4xl font-semibold mb-8">
-              NFT Minting dApp Starter
+              NFT Minting
             </h1>
             <TotalSupply />
             <div className="space-y-8">
